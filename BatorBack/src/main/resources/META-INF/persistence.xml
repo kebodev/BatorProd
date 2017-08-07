@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.kebodev_BatorBack_jar_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.kebodev.entity.BtrDRole</class>
+    <class>com.kebodev.entity.BtrCollectionController</class>
+    <class>com.kebodev.entity.BtrDCustomerType</class>
+    <class>com.kebodev.entity.BtrDEventDetailType</class>
+    <class>com.kebodev.entity.BtrDSystem</class>
+    <class>com.kebodev.entity.BtrDBoolean</class>
+    <class>com.kebodev.entity.BtrDPackageType</class>
+    <class>com.kebodev.entity.BtrContact</class>
+    <class>com.kebodev.entity.BtrDCollControllerType</class>
+    <class>com.kebodev.entity.BtrCollectionStep</class>
+    <class>com.kebodev.entity.BtrPackage</class>
+    <class>com.kebodev.entity.BtrDCollectionEventType</class>
+    <class>com.kebodev.entity.BtrUser</class>
+    <class>com.kebodev.entity.BtrPayment</class>
+    <class>com.kebodev.entity.BtrDLoadLevel</class>
+    <class>com.kebodev.entity.BtrDCollectionStepType</class>
+    <class>com.kebodev.entity.BtrCollection</class>
+    <class>com.kebodev.entity.BtrAddress</class>
+    <class>com.kebodev.entity.BtrDContactType</class>
+    <class>com.kebodev.entity.BtrExternalData</class>
+    <class>com.kebodev.entity.BtrInvoiceHeader</class>
+    <class>com.kebodev.entity.BtrDAddressType</class>
+    <class>com.kebodev.entity.BtrCustomerRel</class>
+    <class>com.kebodev.entity.BtrDCollInvRelType</class>
+    <class>com.kebodev.entity.BtrCollInvRel</class>
+    <class>com.kebodev.entity.BtrInvPayRel</class>
+    <class>com.kebodev.entity.BtrCollectionPackageRel</class>
+    <class>com.kebodev.entity.BtrEventTyDetailTyRel</class>
+    <class>com.kebodev.entity.BtrDStepTyEventTyRel</class>
+    <class>com.kebodev.entity.BtrDExternalDataType</class>
+    <class>com.kebodev.entity.BtrAccount</class>
+    <class>com.kebodev.entity.BtrUserRoleRel</class>
+    <class>com.kebodev.entity.BtrCollectionEvent</class>
+    <class>com.kebodev.entity.BtrEventDetail</class>
+    <class>com.kebodev.entity.BtrCustomer</class>
+    <class>com.kebodev.entity.BtrDCusRelType</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@//10.2.94.217:1521/XE"/>
+      <property name="javax.persistence.jdbc.user" value="CSOD"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.password" value="delldell"/>
+    </properties>
+  </persistence-unit>
+</persistence>
