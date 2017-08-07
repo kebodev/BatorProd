@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+	
+<f:loadBundle basename="resources.application" var="msg"/>	
+	
+<h:head>
+	<meta charset="utf-8"></meta>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+<title>Behajtást Általánosan Támogató Operatív Rendszer - B.Á.T.O.R</title>
+
+	<h:outputStylesheet name="css/bootstrap.css"></h:outputStylesheet>
+	<h:outputStylesheet name="css/font-awesome.css"></h:outputStylesheet>
+	<h:outputStylesheet name="css/ionicons.css"></h:outputStylesheet>
+	<h:outputStylesheet name="css/jquery-jvectormap.css"></h:outputStylesheet>
+	<h:outputStylesheet name="css/AdminLTE.css"></h:outputStylesheet>
+	<h:outputStylesheet name="css/_all-skins.css"></h:outputStylesheet>
+	
+	<h:outputScript name="js/jquery.js"></h:outputScript>
+	<h:outputScript name="js/bootstrap.js"></h:outputScript>
+	<h:outputScript name="js/fastclick.js"></h:outputScript>
+	<h:outputScript name="js/adminlte.js"></h:outputScript>
+	<h:outputScript name="js/jquery.sparkline.js"></h:outputScript>
+	<h:outputScript name="js/jquery-jvectormap-1.2.2.min.js"></h:outputScript>
+	<h:outputScript name="js/jquery-jvectormap-world-mill-en.js"></h:outputScript>
+	<h:outputScript name="js/jquery.slimscroll.js"></h:outputScript>
+	<h:outputScript name="js/demo.js"></h:outputScript>
+	<h:outputScript name="js/ajaxFix.js"></h:outputScript>
+	<h:outputScript name="js/jquery.history.js"></h:outputScript>
+	<h:outputScript name="js/icheck.js"></h:outputScript>
+
+</h:head>
+<body class="hold-transition login-page">
+
+<div class="login-box">
+  <div class="login-logo">
+    <a href="login.xhtml"><b>B.Á.T.O.R</b> - <h:outputText value="#{msg.base_version}" /></a>
+  </div>
+  <div class="login-box-body">
+  <p class="login-box-msg">A Bejelentkezéshez írd be a RES felhasználó nevedet és a jelszavadat.</p>
+  
+  <h:form>
+  
+  <div class="form-group has-feedback">
+  <h:inputText styleClass="form-control"></h:inputText>
+  <span class="fa fa-user-o form-control-feedback"></span>
+  </div>
+  
+  <div class="form-group has-feedback">
+  <h:inputText styleClass="form-control"></h:inputText>
+  <span class="fa fa-server form-control-feedback"></span>
+  </div>
+  
+  <div class="row">
+  <div class="col-xs-4">
+  <h:commandButton value="Bejelentkezés"></h:commandButton>
+  
+  </div>
+  </div>
+  </h:form>
+  
+  </div>
+</div>
+</body>
+</html>
